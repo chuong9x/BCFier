@@ -214,11 +214,7 @@
     <!-- DEBUG -->
     <!-- 2015 -->
     <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2016\RevitAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == 'Debug-2015'">
-      <HintPath>C:\Program Files\Autodesk\Revit 2015\RevitAPIIFC.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
     </Reference>
     <!-- 2016 -->
     <Reference Include="RevitAPI" Condition="'$(Configuration)' == 'Debug-2016'">
@@ -341,6 +337,9 @@
     <!-- MULTIVERSION REVIT API REFERENCES END -->
     <Reference Include="RevitAPIUI">
       <HintPath>C:\Program Files\Autodesk\Revit 2016\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
