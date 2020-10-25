@@ -13,6 +13,7 @@ namespace Bcfier.Navisworks.Entry
   [Command("bcfierBtn", DisplayName = "BCFier", Icon = "BCFierIcon16x16.png", LargeIcon = "BCFierIcon32x32.png", ToolTip = "BCFier", ExtendedToolTip = "BCFier")]
   public class CmdMain : CommandHandlerPlugin
   {
+      public const string NavisVersion = "2020";
 #if Version2017
 
     public const string NavisVersion = "2017";

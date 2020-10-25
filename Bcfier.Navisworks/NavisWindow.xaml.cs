@@ -42,6 +42,7 @@ namespace Bcfier.Navisworks
           opt.value = 900;
       }
     }
+
     #region commands
     /// <summary>
     /// Raised when opening a view

@@ -15,7 +15,7 @@ namespace Bcfier.Revit.Entry
   [Regeneration(RegenerationOption.Manual)]
   public class CmdMain : IExternalCommand
   {
-
+      public const string RevitVersion = "2019";
 #if Version2019
 
     public const string RevitVersion = "2019";

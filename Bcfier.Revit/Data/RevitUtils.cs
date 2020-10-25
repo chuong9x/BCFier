@@ -35,7 +35,7 @@ namespace Bcfier.Revit.Data
      ProjectPosition position = doc.ActiveProjectLocation.GetProjectPosition(origin);
 
 #else
-      ProjectPosition position = doc.ActiveProjectLocation.get_ProjectPosition(origin);
+      ProjectPosition position = doc.ActiveProjectLocation.GetProjectPosition(origin);
 
 #endif
 

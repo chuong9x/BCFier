@@ -165,31 +165,22 @@
     <!-- REVIT API References -->
     <!-- DEBUG -->
     <!-- 2015 -->
-    <Reference Include="Autodesk.Navisworks.Api" Condition="'$(Configuration)' == 'Debug-2015'">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2015\Autodesk.Navisworks.Api.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Autodesk.Navisworks.ComApi" Condition="'$(Configuration)' == 'Debug-2015'">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2015\Autodesk.Navisworks.ComApi.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Autodesk.Navisworks.Interop.ComApi" Condition="'$(Configuration)' == 'Debug-2015'">
-      <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2015\Autodesk.Navisworks.Interop.ComApi.dll</HintPath>
-    </Reference>
     <!-- 2016 -->
     <Reference Include="Autodesk.Navisworks.Api" Condition="'$(Configuration)' == 'Debug-2016'">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2016\Autodesk.Navisworks.Api.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Autodesk.Navisworks.Api">
+      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2020\Autodesk.Navisworks.Api.dll</HintPath>
+    </Reference>
     <Reference Include="Autodesk.Navisworks.ComApi" Condition="'$(Configuration)' == 'Debug-2016'">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2016\Autodesk.Navisworks.ComApi.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.ComApi">
+      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2020\Autodesk.Navisworks.ComApi.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Navisworks.Interop.ComApi" Condition="'$(Configuration)' == 'Debug-2016'">
       <SpecificVersion>False</SpecificVersion>
@@ -260,6 +251,10 @@
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2017\Autodesk.Navisworks.Interop.ComApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.Interop.ComApi">
+      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2020\Autodesk.Navisworks.Interop.ComApi.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <!-- end NAVIS API -->
     <Reference Include="System" />
