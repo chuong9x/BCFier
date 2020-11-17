@@ -111,8 +111,9 @@ namespace Bcfier.Revit
           MessageBox.Show("No Issue selected", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
           return;
         }
+        
 
-        var dialog = new AddViewRevit(issue, Bcfier.SelectedBcf().TempPath, uiapp.ActiveUIDocument.Document);
+          var dialog = new AddViewRevit(issue, Bcfier.SelectedBcf().TempPath, uiapp.ActiveUIDocument.Document);
         dialog.WindowStartupLocation = WindowStartupLocation.CenterScreen;
         dialog.ShowDialog();
         if (dialog.DialogResult.HasValue && dialog.DialogResult.Value)

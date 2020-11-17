@@ -25,11 +25,11 @@
     </ResourceDictionary>
   </UserControl.Resources>
   <UserControl.CommandBindings>
-    <CommandBinding
-      CanExecute="HasIssueSelected"
-      Command="data:Commands.DeleteIssues"
-      Executed="OnDeleteIssues" />
-    <CommandBinding Command="data:Commands.AddComment" Executed="OnAddComment" />
+      <CommandBinding
+          CanExecute="HasIssueSelected"
+          Command="data:Commands.DeleteIssues"
+          Executed="OnDeleteIssues" />
+      <CommandBinding Command="data:Commands.AddComment" Executed="OnAddComment" />
     <CommandBinding Command="data:Commands.DeleteComments" Executed="OnDeleteComment" />
     <!--<CommandBinding Command="data:Commands.AddView" Executed="OnAddView" />-->
     <CommandBinding Command="data:Commands.AddIssue" Executed="OnAddIssue" />
